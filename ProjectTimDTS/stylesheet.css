@@ -1,0 +1,159 @@
+.header {
+  background-color: #26d0c9;
+  color: #fff;
+  height: 90px;
+  display: flex;
+}
+
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+}
+.header-list li {
+  float: left;
+  padding: 20px 20px;
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+  font-style: initial;
+}
+
+.menu-icon{
+  display: none;
+}
+
+.main {
+  width: 1170px;
+  padding: 15px 15px;
+  margin: 0 auto;
+}
+
+#slider {
+  width: 1200px;
+  height: 500px;
+  overflow: hidden;
+  margin: 50px;
+}
+
+.slide {
+  width: 500px;
+  height: 500px;
+  float: left;
+  position: relative;
+}
+
+#slide-holder {
+  width: 400%;
+  position: relative;
+  left: 0;
+  -webkit-animation: scroller 10s infinite;
+          animation: scroller 10s infinite;
+}
+
+@-webkit-keyframes scroller {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  33% {
+    -webkit-transform: translateX(-400px);
+            transform: translateX(-400px);
+  }
+  66% {
+    -webkit-transform: translateX(-800px);
+            transform: translateX(-800px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes scroller {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  33% {
+    -webkit-transform: translateX(-400px);
+            transform: translateX(-400px);
+  }
+  66% {
+    -webkit-transform: translateX(-800px);
+            transform: translateX(-800px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+body {
+  font-family: sans-serif;
+}
+
+#slider {
+  margin: 0 auto;
+}
+
+.slide:nth-child(1) {
+  background: #c69;
+}
+
+.slide:nth-child(2) {
+  background: wheat;
+}
+
+.slide:nth-child(3) {
+  background: #eee;
+}
+
+.slide:nth-child(4) {
+  background: #2f5167;
+}
+
+.gambar{
+  
+  width: 500px;
+  height: 500px;
+}
+
+.isi{
+  margin: 50px;
+  text-align: center;
+  /*atur lagi*/
+}
+
+.foto{
+  width: 250px;
+  height: 300px;
+}
+td{
+  text-align: left
+}
+.tabel1{
+  text-align: left; 
+  border-collapse: collapse;
+}
+
+.tabel2{
+  width: 200px;
+  text-align: left;
+  border: 1px solid black;
+}
+tr:hover {background-color: #73cbcb;}
+
+.footer {
+  background-color: #2f5167;
+  color: #fff;
+  height: 90px;
+  position: static;
+  
+}
+
+.footer-logo{
+  font-size: 36px;
+  padding: 20px 40px;
+  float: left;
+}
